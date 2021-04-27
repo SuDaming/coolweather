@@ -1,0 +1,12 @@
+version = 1
+
+test_patterns = ["src/**"]
+
+exclude_patterns = [
+    "libs/**",
+    "res/**"
+]
+
+[[analyzers]]
+name = "java"
+enabled = true
